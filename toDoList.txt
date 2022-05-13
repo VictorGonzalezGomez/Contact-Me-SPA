@@ -1,0 +1,9 @@
+ Conteiner of sidebar and main section 
+        -sidebar
+            1.-header whit user name, tiny thumbnails, status( active or offline) and 2 icons (chat box and menu collapse bar)
+            2.-new chat button
+            3.-contact list whit normal thumbnails, contact name and last massage
+        -main section
+            1.-picture  
+            2.-header
+            3.-paragraph whit a strong component
