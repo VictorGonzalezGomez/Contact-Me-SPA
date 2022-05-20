@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+}
+.mainConteiner {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-right: solid #e8ebe4;
+  font-family: "Roboto", sans-serif;
+}
+.userConteiner {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid #e8ebe4;
+  margin: 0.5rem 0rem 1rem 0rem;
+}
+.user {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.user img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 150%;
+}
+.userStatus {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.userStatus h5,
+p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.userStatus p {
+  color: #bec1bb;
+  font-size: 0.7rem;
+}
+.menuConteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-right: 0.5rem;
+}
+.buttonConteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid #e8ebe4;
+}
+.buttonConteiner button {
+  margin: 0.5rem 0rem 1rem 0rem;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #a491d2;
+  border: #cdc3e6;
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  gap: 1rem;
+  border-bottom: solid #e8ebe4;
+}
+.contact img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 150%;
+}
+.contactChat {
+  display: flex;
+  flex-direction: column;
+}
+.contactChat h5,
+p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.contactChat p {
+  color: #444749;
+  font-size: 0.7rem;
+}
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafe;
+}
+.contentArea img {
+  width: 30%;
+  border-radius: 5%;
+}
